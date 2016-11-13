@@ -40,3 +40,18 @@ body { padding-top: 70px; }
 	text-align: center;
 
 }
+html
+{
+ height: 100%;
+}
+.dropdown-menu{
+  max-height:300px;
+  overflow-y: scroll;
+}
+#nav-list{
+	overflow: visible;
+	text-align: center;
+}
+header-nav{
+	overflow: visible;
+}
