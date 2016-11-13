@@ -1,0 +1,42 @@
+#chicken ,#beef ,#sushi{
+	background-color: grey;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#chicken h2,#beef h2,#sushi h2 {
+	width :100%;
+	text-align: center;
+	font-size: 1.5em;
+	color: black; 
+	font-weight: 700;
+}
+p{
+	color: black;
+}
+.navbar-brand{
+	padding-top: 3px;
+
+}
+.navbar-header{
+	height: 75px;
+}
+h1{
+	color: black;
+}
+body { padding-top: 70px; }
+
+#heading{
+	margin-top: 20px;
+	font-size: 2em;
+	font-weight: 800;
+	font-style: italic;
+	text-align: center;
+
+}
