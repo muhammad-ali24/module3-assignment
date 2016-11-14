@@ -1,3 +1,11 @@
+#header-nav{
+	border-radius: 0;
+	background-color: grey;
+	border:0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
 #chicken ,#beef ,#sushi{
 	background-color: grey;
 	padding-left: 15px;
@@ -11,7 +19,7 @@
 }
 
 #chicken h2,#beef h2,#sushi h2 {
-	width :100%;
+	
 	text-align: center;
 	font-size: 1.5em;
 	color: black; 
@@ -29,6 +37,12 @@ p{
 }
 h1{
 	color: black;
+	font-family: 'PT Sans', sans-serif;
+    
+	font-weight: bold;
+	
+	font-size:25px;
+
 }
 body { padding-top: 70px; }
 
@@ -44,17 +58,17 @@ html
 {
  height: 100%;
 }
-.dropdown-menu{
-  max-height:300px;
-  overflow-y: visible;
-}
-#nav-list{
+
+#nav-list a{
 	text-align: center;
+	color: black;
+	font-size: 2em;
 }
-.navbar-collapse {
-	overflow-x: visible;
+#nav-list a:hover {
+	color: white;
 }
-.navbar>.container-fluid .navbar-brand {
-    margin: 0;
-    height: auto;
+@media only screen and (max-width : 768px) {
+   #collapsable-nav{
+   	background-color: #424242;
+   }
 }
